@@ -3,13 +3,47 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { MyFrogs } from './components/MyFrogs';
+import { FrogShop } from './components/FrogShop';
+import { Frogpedia } from './components/Frogpedia';
+import { FrogGames } from './components/FrogGames';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children: [
+      {
+        path: "/myFrogs",
+        element: <MyFrogs/>,
+      },
+      {
+        path: "/frogshop",
+        element: <FrogShop/>,
+      },
+      {
+        path: "/frogpedia",
+        element: <Frogpedia/>,
+      },
+      {
+        path: "/froggames",
+        element: <FrogGames/>,
+      }
+    ]
+  },
+
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

@@ -1,0 +1,131 @@
+
+h1 {
+    color:#fd541b;
+}
+.funHeader {
+    color: #fd910a;
+}
+.backgroundColour{
+    background-color: greenyellow;
+    height: 100%;
+    width: 100%;
+}
+.backgroundColourRed{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-color: rebeccapurple;
+    width: 100%;
+    max-width: 950px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 300px;
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navBar{
+    height: 50px;
+    background-color: #fd541b;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body{
+    flex: 1;
+    background-color: darkgreen;
+    display: flex;
+    
+}
+.bodyColumnLeft{
+    height: 100%;
+    flex: 1.5;
+    background-color: #c4ac01;
+}
+.bodyColumnMiddle{
+    height: 100%;
+    flex: 3;
+    background-color: #ffaeb4;
+}
+.bodyColumnRight{
+    height: 100%;
+    flex: 1.75;
+    background-color: #ffca02;
+}
+.footer{
+    height: 300px;
+    background-color: bisque;
+}
+.mainContainer{
+    background-color: purple;
+    width: 100%;
+    max-width: 950px;
+    min-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.navBtn{
+    max-height: 100%;
+}
+
+.navBtn2{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navBtn2.frogpedia{
+    background-image: url('./media/frogpediaNav.png');
+}
+.navBtn2.frogpedia:hover{
+    background-image: url('./media/frogpediaNav_hover.png');
+}
+.navBtn2.frogpedia:active{
+    background-image: url('./media/frogpediaNav_active.png');
+}
+
+.navBtn2.myFrogs{
+    background-image: url('./media/myFrogsNav.png');
+}
+.navBtn2.myFrogs:hover{
+    background-image: url('./media/myFrogsNav_hover.png');
+}
+.navBtn2.myFrogs:active{
+    background-image: url('./media/myFrogsNav_active.png');
+}
+
+.navBtn2.frogShop{
+    background-image: url('./media/frogShopNav.png');
+}
+.navBtn2.frogShop:hover{
+    background-image: url('./media/frogShopNav_hover.png');
+}
+.navBtn2.frogShop:active{
+    background-image: url('./media/frogShopNav_active.png');
+}
+
+.navBtn2.frogGames{
+    background-image: url('./media/frogGameNav.png');
+}
+.navBtn2.frogGames:hover{
+    background-image: url('./media/frogGameNav_hover.png');
+}
+.navBtn2.frogGames:active{
+    background-image: url('./media/frogGameNav_active.png');
+}

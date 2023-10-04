@@ -1,0 +1,40 @@
+.frogContainer{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.frogCard{
+    background-color: greenyellow;
+    height: 90px;
+    width: calc(50% - 30px);
+    margin: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+.newFrogBtn{
+    padding: 8px;
+    width: calc(100%-8px);
+    background-color: aqua;
+    margin: 4px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.newFrogBtn:hover{
+    background-color: blue;
+}
+.newFrogBtn:active{
+    background-color: cornflowerblue;
+}
+.frogThumbnail{
+    position:absolute;
+    top:-5px;
+    height: 110%;
+    right:0;
+}
