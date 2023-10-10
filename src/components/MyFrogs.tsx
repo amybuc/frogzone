@@ -33,6 +33,54 @@ export const MyFrogs = () => {
         {
             name:"frogson",
             species: Species.green
+        },
+        {
+            name:"froggi",
+            species: Species.green
+        },
+        {
+            name:"frogette",
+            species: Species.brown
+        },
+        {
+            name:"frogley",
+            species: Species.poison
+        },
+        {
+            name:"frogson",
+            species: Species.green
+        },
+        {
+            name:"froggi",
+            species: Species.green
+        },
+        {
+            name:"frogette",
+            species: Species.brown
+        },
+        {
+            name:"frogley",
+            species: Species.poison
+        },
+        {
+            name:"frogson",
+            species: Species.green
+        }
+        ,        {
+            name:"froggi",
+            species: Species.green
+        },
+        {
+            name:"frogette",
+            species: Species.brown
+        },
+        {
+            name:"frogley",
+            species: Species.poison
+        },
+        {
+            name:"frogson",
+            species: Species.green
         }
     ])
     const [frogName, setFrogName] = useState("")
